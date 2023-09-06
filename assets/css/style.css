@@ -192,6 +192,8 @@ button.owl-next span, button.owl-prev span {
     color: var(--theme-color);
     font-size: 25px;
     font-weight: 200;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
 }
 .about .theme-cm-content p{
@@ -257,6 +259,8 @@ button.owl-next span, button.owl-prev span {
 }
 
 .card .btn {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     margin: auto;
 }
@@ -294,6 +298,22 @@ textarea{
     background:white!important;
     border: none var(--theme-color)!important;
     color: var(--white) !important;
+}
+
+::-webkit-input-placeholder {
+    color: #777 !important;
+}
+
+::-moz-placeholder {
+    color: #777 !important;
+}
+
+:-ms-input-placeholder {
+    color: #777 !important;
+}
+
+::-ms-input-placeholder {
+    color: #777 !important;
 }
 
 ::placeholder {
@@ -348,6 +368,8 @@ textarea{
 
 
 .services .btn {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     margin: 30px auto;
 }
@@ -366,6 +388,8 @@ textarea{
     position: absolute;
     left: 15px;
     top: .375rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     pointer-events: none;
     transition: .2s ease-in-out;
@@ -492,6 +516,7 @@ section.fixed-bar {
     padding: 15px;
     font-size: 18px;
     display: none;
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     text-align: center
@@ -622,6 +647,8 @@ spinner-border {
     .mbCta {
         display: block!important;
         top: 5px;
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         position: absolute;
         right: 25%;
@@ -631,6 +658,7 @@ spinner-border {
 
 
     section.fixed-bar {
+        position: -webkit-sticky;
         position: sticky;
         bottom: 0;
         background: #fff
