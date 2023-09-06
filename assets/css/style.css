@@ -684,4 +684,8 @@ spinner-border {
     .Wrapper img:nth-child(2){
         width: 200px;
     } 
+
+    .nav-item .btn {
+        display: none;
+      }
 }
